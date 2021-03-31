@@ -24,7 +24,6 @@
   position: absolute;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -41,12 +40,13 @@
   .menu-nav {
     margin: 0;
     padding: 0%;
-    background: #202021;
+    background: rgba(56, 56, 59, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0); }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
+    background: rgba(56, 56, 59, 0.9);
     background: #2c2c2e;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
@@ -238,9 +238,16 @@ main {
     margin-bottom: 3rem;
     transition: all 0.5s ease-in-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
-      background: #a5ffc9;
-      color: #000; }
+      animation: anime 1s 1 forwards;
+      color: #a5ffc9; }
+
+@keyframes anime {
+  0% {
+    box-shadow: inset 0px 0 0 0 #a5ffc9; }
+  50% {
+    box-shadow: inset 500px 0 0 0 #a5ffc9; }
+  50% {
+    box-shadow: inset 500px 0 0 0 #2c2c2e; } }
       .boxes div:hover span {
         color: #fff; }
 

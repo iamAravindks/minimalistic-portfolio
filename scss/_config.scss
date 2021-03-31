@@ -64,3 +64,17 @@ $opacity: 0.9;
     @content;
   }
 }
+@mixin anime {
+  animation: anime 1s 1 forwards;
+  @keyframes anime {
+    0% {
+      box-shadow: inset 0px 0 0 0 $secondary-color;
+    }
+    50% {
+      box-shadow: inset 500px 0 0 0 $secondary-color;
+    }
+    50% {
+      box-shadow: inset 500px 0 0 0 $dark-color;
+    }
+  }
+}
