@@ -18,6 +18,7 @@
   main {
     text-align: center;
     align-items: center;
+    padding: 2rem 2rem 1rem 2rem;
     .lg-headings {
       line-height: 1;
       margin-bottom: 1rem;
@@ -64,7 +65,7 @@
 
 @include mediaSm {
   main {
-    padding: 2rem;
+    padding: 0rem 2rem 1rem 2rem;
     #home h1 {
       margin-top: 10vh;
     }

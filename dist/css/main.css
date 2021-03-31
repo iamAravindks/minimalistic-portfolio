@@ -269,7 +269,8 @@ main {
 @media screen and (max-width: 768px) {
   main {
     text-align: center;
-    align-items: center; }
+    align-items: center;
+    padding: 2rem 2rem 1rem 2rem; }
     main .lg-headings {
       line-height: 1;
       margin-bottom: 1rem; }
@@ -299,7 +300,7 @@ main {
 
 @media screen and (max-width: 500px) {
   main {
-    padding: 2rem; }
+    padding: 0rem 2rem 1rem 2rem; }
     main #home h1 {
       margin-top: 10vh; }
     main .lg-heading {
