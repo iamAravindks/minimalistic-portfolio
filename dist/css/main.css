@@ -54,7 +54,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/dist/images/profile.jpg);
+      background: url("https://iamaravindks.github.io/minimalistic-portfolio/images/profile.jpg");
       background-size: cover;
       background-position: center;
       z-index: 2;
@@ -103,7 +103,7 @@ body {
   line-height: 1.5;
   overflow-x: hidden; }
   body#bg-img {
-    background: url(/dist/images/bg.jpg);
+    background: url("https://iamaravindks.github.io/minimalistic-portfolio/images/bg.jpg");
     background-size: cover;
     background-attachment: fixed; }
   body::after {
