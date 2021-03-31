@@ -12,7 +12,6 @@
   main {
     text-align: center;
     align-items: center;
-
     .lg-headings {
       line-height: 1;
       margin-bottom: 1rem;
@@ -39,6 +38,16 @@
       width: 150px;
       height: 150px;
     }
+  }
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
   }
 }
 
